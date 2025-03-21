@@ -1,0 +1,6 @@
+argparse
+faker
+python-docx
+pandas
+fpdf
+openpyxl
