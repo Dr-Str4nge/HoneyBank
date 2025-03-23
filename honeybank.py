@@ -39,11 +39,16 @@ Maria Gonzalez
 """
 
 VALID_TOPICS = {
-    "Loan Application": [".docx", ".pdf"],
-    "Customer Profile": [".pdf", ".docx"],
-    "Internal Audit": [".pdf", ".docx"],
+    "Account Statement": [".pdf", ".xlsx"],
+    "Wire Transfer": [".pdf", ".xlsx"],
+    "Loan Agreement": [".docx", ".pdf"],
+    "Customer Profile": [ ".pdf", ".docx"],
+    "Internal Audit": [".xlsx", ".pdf", ".docx"],
     "Financial Report": [".xlsx", ".pdf", ".docx"],
-    "Tax Return": [".pdf", ".xlsx", ".docx"]
+    "Tax Return": [".pdf", ".xlsx", ".docx"],
+    "Mortgage Application": [".docx", ".pdf"],
+    "Investment Portfolio": [".xlsx", ".pdf"],
+    "ATM Transactions": [".xlsx", ".pdf"]
 }
 
 def create_fake_docx(file_path, customer_name, account_number, fake, use_ollama, topic):
